@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="{{url('public/frontend')}}/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="{{url('public/frontend')}}/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="{{url('public/frontend')}}/css/style1.css" type="text/css">
+    
+
 </head>
 
 <body>
@@ -29,6 +31,7 @@
         <div class="loader"></div>
     </div>
 
+    
     <!-- Header Section Begin -->
     <header class="header">
         <div class="header__top">
@@ -37,8 +40,8 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
+                                <li><i class="fa fa-envelope"></i> hello@gmail.com</li>
+                                <li>Free Shipping</li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +63,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="{{route('login')}}"><i class="fa fa-user"></i> Login</a>
+                                <a href="{{route('login')}}"><i class="fa fa-user"> Đăng nhập</i> </a>
                             </div>
                         </div>
                     </div>
@@ -235,9 +238,6 @@
     <script src="{{url('public/frontend')}}/js/mixitup.min.js"></script>
     <script src="{{url('public/frontend')}}/js/owl.carousel.min.js"></script>
     <script src="{{url('public/frontend')}}/js/main.js"></script>
-
-
-
 </body>
 
 </html>

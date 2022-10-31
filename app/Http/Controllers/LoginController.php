@@ -23,7 +23,7 @@ class LoginController extends Controller
         ];
 
 		if(Auth::attempt($arr)) {
-			// Kiểm tra đúng email và mật khẩu sẽ chuyển trang
+            // Kiểm tra đúng email và mật khẩu sẽ chuyển trang
             return redirect()->route('dashboard')->with('success', 'Đăng nhập thành công');
 		} else {
 			// Kiểm tra không đúng ko cho đăng nhập
